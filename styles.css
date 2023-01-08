@@ -1,0 +1,135 @@
+html,body {
+    margin:0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+}
+.first{
+    height: 100vh;
+    width: 99vw;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    color: white;
+}
+.left{
+    height: 90vh;
+    width: 60vw;
+}
+.header{
+    width: 100vw;
+    height: 10vh;
+    background-color:#07268da3;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.606);
+    color: rgb(248, 248, 248);
+    transition: transform 0.3s ease 0s;
+    transform: translateY(0%);
+    z-index: 200;
+    font-size: larger;
+}
+.leftinfo{
+    height: 80vh;
+    background-color: #0b39d1;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+}
+.heading,.information,.enter{
+    margin-left: 70px;
+}
+.heading{
+    font-size: 5em;
+    font-weight: 700;
+}
+.heading1{
+    margin-top: 120px;
+    margin-down:-30px;
+}
+.heading2{
+    margin-top: -30px;
+}
+.information{
+    font-size: 25px;
+    margin-top: 10px;
+}
+.enter{
+    color:  #00000064;
+    height: 3em;
+    width: 40em;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-left: 25px;
+    margin-top: 55px;
+    font-size: large;
+}
+.button{
+    color: white;
+    font-weight: 500;
+    background-color: #ED8E00;
+    height: 3em;
+    width: 10em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+.right{
+    background-color: rgb(159, 111, 121);
+    height: 100vh;
+    width: 40vw;
+    border-radius: 0px 0px 00px 50px;
+}
+.second{
+    width: 99vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap:4em;
+}
+.services{
+    margin-top: 1em;
+    margin-left:70px ;
+    font-weight: 600;
+    font-size: 50px;
+}
+.row{
+    display: flex;
+    width: 99vw;
+    height: 50vh;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.box{
+    background-color: black;
+    width: 334.39px;
+    height: 356px;
+    border-radius: 3em;
+}
+.query{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    width: 180px;
+    margin-left: 660px;
+    border-radius:20px;
+    background-color: #0b39d1;
+    font-size: larger;
+    font-weight: 500;
+    color: white;
+}
+.whatsapp{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(0, 183, 98);
+    border-radius: 50%;
+    position: fixed;
+    margin-top: 40em;
+    margin-left: 85em;
+}
