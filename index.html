@@ -1,49 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Intergraphics Corporation</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <style> @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap'); </style>
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js"></script>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly"
+      defer
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+    </style>
+  </head>
+  <body>
     <div class="first">
-        <div class="header">
-            <div class="logo" >Logo</div>
-            <div class="header1" >Home</div>
-            <div class="header2" >Our Products</div>
-            <div class="header3" >Contact Us</div>
+      <div class="header">
+        <div class="logo">Logo</div>
+        <div class="header-right">
+          <div class="header1">Home</div>
+          <div class="header2">Our Products</div>
+          <div class="header3">Contact Us</div>
         </div>
-        <div class="whatsapp"></div>
-        <div class="left">
-            <div class="leftinfo">
-                <div class="heading heading1">Get India's best</div>
-                <div class="heading heading2">ID Cards</div>
-                <div class="information">We are rocking you. You you you you You are awesome. I am Soumodeep the momo.</div>
-                <div class="enter">Enter your email address
-                    <div class="button">Get In Touch</div>
-                </div>
-            </div>
+      </div>
+      <div class="whatsapp">
+        <img class="whatsappimg" src="images/whatsapp.png" />
+      </div>
+      <div class="left">
+        <div class="leftinfo">
+          <div class="heading heading1">Get India's best</div>
+          <div class="heading heading2">ID Cards</div>
+          <div class="information">
+            We are rocking you. You you you you You are awesome. I am Soumodeep
+            the momo.
+          </div>
+          <div class="enter">
+            Enter your email address
+            <div class="button">Get In Touch</div>
+          </div>
         </div>
-        <div class="right">
-        </div>
+      </div>
+      <div class="right"></div>
     </div>
-    <div class="second">
-        <div class="services">Our Services</div>
-        <div class="row">
-            <div class="box"></div>
-            <div class="box"></div>
-            <div class="box"></div>
+    <!-- <div class="second">
+      <div class="services">Our Services</div>
+      <div class="row">
+        <div class="box">
+          <div class="box-pic"></div>
+          <div class="box-writing"></div>
         </div>
-        <div class="row">
-            <div class="box"></div>
-            <div class="box"></div>
-            <div class="box"></div>
+        <div class="box">
+          <div class="box-pic"></div>
+          <div class="box-writing"></div>
         </div>
-        <div class="query">Ask a query</div>
+        <div class="box">
+          <div class="box-pic"></div>
+          <div class="box-writing"></div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="box">
+          <div class="box-pic"></div>
+          <div class="box-writing"></div>
+        </div>
+        <div class="box">
+          <div class="box-pic"></div>
+          <div class="box-writing"></div>
+        </div>
+        <div class="box">
+          <div class="box-pic"></div>
+          <div class="box-writing">
+            Yoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyo
+          </div>
+        </div>
+      </div>
+      <div class="query">Ask a query</div>
+    </div> -->
+    <div class="third">
+      <div class="services">Why choose us ?</div>
+      <div class="services-row">
+        <div class="services-row-box">
+          <div class="services-row-box-pic"><img src="images/img1.png" /></div>
+          <div class="services-row-box-text"></div>
+        </div>
+        <div class="services-row-box">
+          <div class="services-row-box-pic"><img src="images/img1.png" /></div>
+          <div class="services-row-box-text">Best Quality</div>
+        </div>
+        <div class="services-row-box">
+          <div class="services-row-box-pic"><img src="images/img1.png" /></div>
+          <div class="services-row-box-text"></div>
+        </div>
+        <div class="services-row-box">
+          <div class="services-row-box-pic"><img src="images/img1.png" /></div>
+          <div class="services-row-box-text"></div>
+        </div>
+        <div class="services-row-box">
+          <div class="services-row-box-pic"><img src="images/img1.png" /></div>
+          <div class="services-row-box-text"></div>
+        </div>
+      </div>
     </div>
-</body>
+    <div class="fourth">
+      <fieldset>
+        <div class="services">Contact Us.</div>
+        <div class="name">
+          <label for="name">Name :</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="eg. Soumaydeep Majumder"
+          />
+      </div>
+      <div class="email">
+        <label for="user_email">Email Address :</label>
+        <input
+        type="email"
+        id="user_email"
+        name="email"
+        placeholder="eg. you@example.com"
+        />
+      </div>
+      <div class="mobile">
+        <label for="mobile">Contact No :</label>
+        <input type="number" id="mobile" name="mobile" />
+      </div>
+      <textarea></textarea>
+      <div class="submit">
+        <button type="submit">Submit</button>
+      </div>
+    </fieldset>
+    </div>
+    <div class="map-box">
+      <div id="map"></div>
+    </div>
+    <div class="footer"></div>
+  </body>
 </html>
